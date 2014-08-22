@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Kevin Dustin/Dropbox/College/Fourth Quarter/Databases 2/Java/Mongo/mongo-java-driver-2.12.3.jar" sourcepath="C:/Users/Kevin Dustin/Dropbox/College/Fourth Quarter/Databases 2/Java/Mongo/mongo-java-driver-2.9.3-javadoc.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Kevin%20Dustin/Dropbox/College/Fourth%20Quarter/Databases%202/Java/Mongo/mongo-java-driver-javadoc-2.12.3.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Kevin Dustin/Dropbox/College/Fourth Quarter/Databases 2/Java/Mongo/mongo-java-driver-javadoc-2.12.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Kevin Dustin/Dropbox/College/Fourth Quarter/Databases 2/Java/PersistantApps/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Kevin Dustin/Dropbox/College/Fourth Quarter/Databases 2/Java/PersistantApps/commons-lang3-3.3.2-javadoc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
