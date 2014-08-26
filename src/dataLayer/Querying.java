@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import mongoConnection.MongoIO;
 
-public class Querying implements IQuery
+public class Querying 
 {
 	private MongoIO io = new MongoIO("168.63.148.44", 27017, "wiki", "pages");
 	public Boolean CheckTitle(String title)
