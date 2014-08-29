@@ -1,27 +1,22 @@
 package dataLayer;
 
 import org.apache.commons.lang3.text.WordUtils;
-<<<<<<< HEAD
 import org.eclipse.mylyn.wikitext.confluence.core.ConfluenceLanguage;
 import org.eclipse.mylyn.wikitext.core.parser.MarkupParser;
 import org.eclipse.mylyn.wikitext.mediawiki.core.MediaWikiLanguage;
 import org.eclipse.mylyn.wikitext.textile.core.TextileLanguage;
 import org.eclipse.mylyn.wikitext.twiki.core.TWikiLanguage;
-=======
->>>>>>> 33d03b1fab5366170f49a71068a7fbcc5acccb65
+
 
 public class Page 
 {
 	private String pageTitle;
 	private String content;
 	
-<<<<<<< HEAD
 	public static void main(String[] args) {
 		System.out.println(new Querying().getPageByTitle("TeleNav"));
 	}
-	
-=======
->>>>>>> 33d03b1fab5366170f49a71068a7fbcc5acccb65
+
 	public String getPageTitle() {
 		return pageTitle;
 	}
@@ -34,7 +29,6 @@ public class Page
 		return content;
 	}
 	
-<<<<<<< HEAD
 	public String getPlainTextContent(){
 		String filtered = stripBlock(content, "{{", "}}");
 		filtered = stripBlock(filtered, "<ref", "</ref>");
@@ -76,8 +70,6 @@ public class Page
 		return output;
 	}
 	
-=======
->>>>>>> 33d03b1fab5366170f49a71068a7fbcc5acccb65
 	private void setContent(String content) {
 		this.content = content;
 	}
@@ -91,15 +83,11 @@ public class Page
 	@Override
 	public String toString(){
 		String result = "";
-<<<<<<< HEAD
 		//result += pageTitle + "\n";
 		
-		result += getPlainTextContent(); //WordUtils.wrap(getPlainTextContent(), 80);
-=======
-		result += pageTitle + "\n";
+		//result += getPlainTextContent(); //WordUtils.wrap(getPlainTextContent(), 80);
 		
-		result += WordUtils.wrap(content, 80);
->>>>>>> 33d03b1fab5366170f49a71068a7fbcc5acccb65
+		result += WordUtils.wrap(getPlainTextContent(), 80);
 		return result;
 	}
 }
