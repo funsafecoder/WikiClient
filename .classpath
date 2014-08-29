@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="com.google.guava_15.0.0.v201403281430.jar"/>
+	<classpathentry kind="lib" path="commons-lang3-3.3.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="mongo-java-driver-2.12.3.jar"/>
+	<classpathentry kind="lib" path="mongo-java-driver-javadoc-2.12.3.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.mylyn.wikitext.confluence.core_2.2.0.N20140819-1817.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.mylyn.wikitext.core_2.2.0.N20140819-1817.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.mylyn.wikitext.core.ant_2.2.0.N20140702-2138.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.mylyn.wikitext.core.osgi_2.2.0.N20140702-2138.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.mylyn.wikitext.html.core_2.2.0.N20140730-1632.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.mylyn.wikitext.markdown.core_2.2.0.N20140819-2058.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.mylyn.wikitext.mediawiki.core_2.2.0.N20140702-2138.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.mylyn.wikitext.textile.core_2.2.0.N20140819-1817.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.mylyn.wikitext.tracwiki.core_2.2.0.N20140702-2138.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.mylyn.wikitext.twiki.core_2.2.0.N20140702-2138.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
